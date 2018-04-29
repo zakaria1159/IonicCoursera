@@ -1,3 +1,4 @@
+import { CommentPage } from './../pages/comment/comment';
 import { ReservationPage } from './../pages/reservation/reservation';
 import { FavoritesPage } from './../pages/favorites/favorites';
 import { DishdetailPage } from './../pages/dishdetail/dishdetail';
@@ -33,7 +34,8 @@ import { FavoriteProvider } from '../providers/favorite/favorite';
     ContactPage,
     DishdetailPage,
     FavoritesPage,
-    ReservationPage
+    ReservationPage,
+    CommentPage
   
   ],
   imports: [
@@ -50,7 +52,8 @@ import { FavoriteProvider } from '../providers/favorite/favorite';
     ContactPage,
     DishdetailPage,
     FavoritesPage,
-    ReservationPage
+    ReservationPage,
+    CommentPage
     
   ],
   providers: [

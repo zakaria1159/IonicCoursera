@@ -20,8 +20,8 @@ export class ReservationPage {
   constructor(public navCtrl: NavController, public navParams: NavParams, public viewCtrl: ViewController, 
     private formBuilder: FormBuilder) {
       this.reservation = this.formBuilder.group({
-        guests: 3,
-        smoking: false,
+        guests: 4,
+        smoking: true,
         dateTime: ['', Validators.required],
       });
   }
